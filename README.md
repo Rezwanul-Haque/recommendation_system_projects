@@ -16,6 +16,8 @@ Types of recommendation problem
     1. User-based filtering
     2. item-based filtering
 * Content-based systems
+    1. Plot description-based recommender
+    2. Metadata-based recommender
 * Knowledge-based recommenders
 * Hybrid recommenders
 
@@ -34,7 +36,10 @@ Collaborative filtering leverages the power of community to provide recommendati
 ### Content-based systems
     recommendations based on a user profile and metadata it has on particular items.
     Example: Netflix.
-
+  #### Plot description-based recommender
+    model compares the descriptions and taglines of different movies, and provides recommendations that have the most similar plot descriptions
+  #### Metadata-based recommender
+    model takes a host of features, such as genres, keywords, cast, and crew, into consideration and provides recommendations that are the most similar with respect to the aforementioned features.
 ### Knowledge-based recommenders
     Knowledge-based recommenders are used for items that are very rarely bought.
     Example: Real estate purchase.
