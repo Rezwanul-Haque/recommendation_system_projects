@@ -138,5 +138,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# End of https://www.gitignore.io/api/python,jupyternotebooks
+# File size +100MB
 ./Content-based-Recommenders/data/credits.csv
